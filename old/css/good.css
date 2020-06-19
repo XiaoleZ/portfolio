@@ -1,0 +1,143 @@
+h2 {
+    line-height: 0%;
+}
+
+p {
+    display: inline-block;  
+    margin: 30pt;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: lightcoral
+}
+
+.devicon {
+    font-size: 2.5rem
+  }
+
+#courses ul, .sidenav ul {
+    padding: 0;
+    list-style: none;
+}
+
+.bg {
+    background-color: #e8f5e9;
+}
+
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    background-color: #80cbc4;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff176;
+}
+
+.sidenav a{
+    color: #fff176;
+    text-decoration: none;
+    line-height: 30pt;
+    font-size: 15pt;
+}
+
+.sidenav a:hover{
+    color: aliceblue;
+    font-size: 18pt;
+}
+
+.sidenav ul li{
+    list-style: none;
+}
+
+.sidenav #sidenav_icon ul li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.copyright {
+    color: whitesmoke;
+    bottom: 0;
+    margin: 30px;
+    position: absolute;   
+    font-size: 13px;
+}
+
+.main {
+    margin-left: 400px;
+}
+
+.content {
+    overflow:auto;
+    height: 100%;
+    display: block;
+    padding: 20px 20px 20px 20px;  
+}
+
+#about_me_detail img {
+    width: 170pt;
+    height: 170pt;
+    vertical-align: top;
+    float: left;
+}
+
+#about_me_detail .name{
+    font-size: 25pt;
+    line-height: 35pt;
+}
+
+.content #skill {
+    display:flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.content .edu {
+    background: antiquewhite;
+    margin: 10pt;
+    margin-bottom: 30pt;
+    width: 300pt;
+    padding: 10pt;
+    line-height: 15pt;
+    position: relative;
+}
+
+.blog-preview {
+    padding-top: 20pt;
+    padding-left: 10pt;
+    padding-bottom: 20pt;
+}
+
+
+span #fav-quotes:before{
+    padding: 20px 20px 20px 20px;  
+    display: block;
+    position: flex;
+    height: 10pt;
+    content: '"The two most powerful warriors are patience and time." – Leo Tolstoy';
+    animation: animate infinite 12s;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@keyframes animate {
+    0%{
+        content: '"The two most powerful warriors are patience and time." – Leo Tolstoy';
+    }
+    30%{
+        content: '“The gladdest moment in human life is a departure into unknown lands.” – Sir Richard Burton';
+        color: lightgreen;
+    }
+    60%{
+        content: '“Success is no accident. It is hard work, perseverance, learning, studying, sacrifice and most of all, love of what you are doing or learning to do.” – Pele';
+        color: palevioletred;
+    }
+}
