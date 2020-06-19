@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Charlotte Xiaole Zeng",
-    "role": "Full Stack Web Developer",
+    "role": "Software Developer",
     "linkedinId":"xiaolezeng",
     // "skypeid": "Your skypeid",
     "roleDescription": " I like teaching and exploring new challenges.",
@@ -24,7 +24,7 @@ let resumeData = {
       ],
     "aboutme":"I am a fourth year Computing Science student at the University of Alberta.\
                I like teaching and exploring new challenges.\
-               I am a Full Stack Web Developer, diving deeper into Machine Learning and Practical Algorithm.",
+               I am a Software Developer, diving deeper into Machine Learning and Practical Algorithm.",
     // "address":"India",
     // "website":"https://rbhatia46.github.io",
     "education":[
@@ -82,12 +82,12 @@ let resumeData = {
         "skilldetails":"Django, Ruby on Rails, Angular, Bootstrap, Semantic UI, MaterializeCSS, Phaser"
       },
       {
-        "skillname":"Frameworks",
-        "skilldetails":"jQuery, Backbone.js"
+        "skillname":"Libraries",
+        "skilldetails":"jQuery, Backbone.js, React"
       },
       {
         "skillname":"Skills",
-        "skilldetails":"Agile, Git, Andriod, Heroku, YOLOv3"
+        "skilldetails":"Agile, Git, Andriod, Heroku, DataDogs, YOLOv3"
       }
     ],
     "portfolio":[
